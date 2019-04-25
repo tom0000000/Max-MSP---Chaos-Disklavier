@@ -1,6 +1,7 @@
 # Max-MSP---Chaos-Disklavier
 ![alt text](https://github.com/tom0000000/Max-MSP---Chaos-Disklavier/blob/master/chaosScreen.PNG "screenshot")
 <b>Introduction</b>
+
 For this piece I wanted to investigate the results of relinquishing control of musical parameters to a chaotic modulation source. My main influences for this piece were Iannis Xenakis’ graphical composition system UPIC, and the idea of an ‘Eternal Music’ hypothesised by La Monte Young.
 
 <b>Initial Idea</b>
