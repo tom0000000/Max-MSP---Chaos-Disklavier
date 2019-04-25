@@ -22,14 +22,17 @@ being G9, the raw value from the X output of the Tinkerbell map is scaled in the
 0-1 and then multiplied by 52 before being rounded to the nearest whole number. The
 result from this is added to 22. E.g. if the X value is 0.136, the note number at the end of
 this calculation would 64.
+
 <b>Velocity</b> – The Y axis value from the Tinkerbell map is scaled between 1 and 30 out of a
 possible velocity range of 0-127 – with 16 being ppp and 127 being fff (0-16 being
 silence/hammers of Disklavier not struck with enough force to hit the strings). I made the
 decision to keep the dynamics in this range as I found it sounded a little too fractured
 using the full dynamic range.
+
 <b>Duration</b> – How long a note is sustained is determined by the dx/dt (difference between
 the most recent value and the one before it) value and scaled between 500 and 2000ms. E.g.
 if the dx/dt is -0.079, the note would be sustained for 1926 milliseconds.
+
 <b>Tempo</b> – The tempo of the piece is decided by the X value of the Dejong map multiplied
 by 963 and added to 282. This value is in milliseconds. E.g. if the X value is 0.603 the
 interval between each note would be 862.689 milliseconds.
