@@ -14,6 +14,8 @@ The output values from the equations are scaled to fit within a certain range, c
 
 <b>How the Chaotic Maps are assigned to
 musical parameters</b>
+
+
 <b>Pitch</b> – With the number 0 assigned to note C-1 and the maximum midi note number 127
 being G9, the raw value from the X output of the Tinkerbell map is scaled in the range of
 0-1 and then multiplied by 52 before being rounded to the nearest whole number. The
